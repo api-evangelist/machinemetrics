@@ -64,5 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-MachineMetrics is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.machinemetrics.com
+MachineMetrics provides an AI‑powered manufacturing operations platform that connects machines, operators, and enterprise systems in real time. Their MaximaOS solution offers production scheduling, work order management, operator guidance, downtime tracking, OEE analytics, and tool‑life monitoring across multiple sites. By leveraging live machine data and AI, they help manufacturers close the execution gap, improve utilization, and accelerate decision‑making. The platform serves industries such as aerospace, automotive, contract manufacturing, medical devices, and heavy equipment, supporting over 10,000 machines globally.
+
+**Areas:** Company · Manufacturing · Artificial Intelligence · MES · IoT · Software-as-a-Service
+
+## MachineMetrics on APIs.io
+
+Everything profiled for MachineMetrics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/machinemetrics/](https://apis.io/providers/machinemetrics/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [MachineMetrics MachineMetrics API](https://apis.io/apis/machinemetrics/machinemetrics-machinemetrics-api-api/) — The MachineMetrics API API from MachineMetrics — 1 operation(s) for machinemetrics api.
+- [MachineMetrics Mmdevcli API](https://apis.io/apis/machinemetrics/machinemetrics-mmdevcli-api/) — The Mmdevcli API from MachineMetrics — 1 operation(s) for mmdevcli.
+- [MachineMetrics Ping API](https://apis.io/apis/machinemetrics/machinemetrics-ping-api/) — The Ping API from MachineMetrics — 1 operation(s) for ping.
+- [MachineMetrics Reports API](https://apis.io/apis/machinemetrics/machinemetrics-reports-api/) — The Reports API from MachineMetrics — 1 operation(s) for reports.
+- [MachineMetrics Graph QL API](https://apis.io/apis/machinemetrics/machinemetrics-graph-ql-api/) — The Graph QL API from MachineMetrics — 1 operation(s) for graph ql.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [PostReportsProductionRequest](https://apis.io/schemas/machinemetrics/machinemetrics-post-reports-production-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Machinemetrics Context](https://apis.io/jsonld/machinemetrics/machinemetrics-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [MachineMetrics API Rules](https://apis.io/rules/machinemetrics/machinemetrics-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Machinemetrics Authentication](https://apis.io/security/machinemetrics/machinemetrics-authentication/)
+- [Machinemetrics Domain Security](https://apis.io/security/machinemetrics/machinemetrics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.machinemetrics.com)
+- [Documentation](https://developers.machinemetrics.com/)
+- [Getting started](https://developers.machinemetrics.com/docs/data-and-apis/expected-setup-allocation)
+- [API reference](https://developers.machinemetrics.com/docs/data-and-apis/graphql/reference)
+- [Pricing](https://www.machinemetrics.com/pricing)
+- [Support](https://support.machinemetrics.com/hc/en-us)
+- [Changelog](https://docs.machinemetrics.com/release-notes)
+- [Blog](https://www.machinemetrics.com/blog)
+- [Privacy policy](https://www.machinemetrics.com/privacy)
+- [Status](https://status.machinemetrics.com/)
+
+## API Evangelist rating
+
+**Kin Score 39.0** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 82.1 |
+| Contract quality | 19.0 |
+| Contract governance | 35.6 |
+| Operational transparency | 31.6 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 34.2 |
+
+**Agent readiness 23.7** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.1** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/machinemetrics/](https://apis.io/providers/machinemetrics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MachineMetrics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/machinemetrics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
